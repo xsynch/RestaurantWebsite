@@ -10,110 +10,93 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="index.js"></script>
     <title>Welcome to Chillz Restaurant and Bar</title>
   </head>
   <body>
-    <div class="container">
-      <nav id="menu" class="menu--nav">
-        <ul>
-          <li class="bar--name">Chillz Restaurant and Bar</li>
-          <li class="nav--item"><a href="#">Home</a></li>
-          <li class="nav--item"><a href="#menu">Menu</a></li>
-          <li class="nav--item"><a href="#">Contact</a></li>
-          <li class="nav--item"><a href="#">Gallery</a></li>
-        </ul>
-      </nav>
+    <section class="site-container">
+      <div class="container">
+        <header>
+          <nav class="menu--nav">
+            <ul>
+              <li class="bar--name">Chillz Restaurant and Bar</li>
+              <li class="nav--item">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav--item"><a href="#menu">Menu</a></li>
+              <li class="nav--item">
+                <a href="#contact">Contact</a>
+              </li>
+              <li class="nav--item"><a href="#gallery">Gallery</a></li>
+              <li class="nav--item">
+                <a
+                  href="https://www.grubhub.com/restaurant/chillz-bar-and-grill-5052-old-national-hwy-college-park/4824288"
+                  target="_blank"
+                  ><img src="images/grubhub.png"
+                /></a>
+              </li>
+              <li class="nav--item">
+                <a
+                  href="https://www.doordash.com/store/chillz-restaurant-and-bar-college-park-22995362/"
+                  target="_blank"
+                  ><img src="images/doordash-logo.svg"
+                /></a>
+              </li>
+              <li class="nav--item">
+                <a
+                  href="https://www.ubereats.com/store/chillz-restaurant-and-bar/7Wu1XdiUWjWhHkecSRqZRA"
+                  target="_blank"
+                  ><img src="images/uber-eats.svg"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-      <div class="welcome">
-        <h1 class="welcome-1">Chillz Restaurant</h1>
-        <h1 class="welcome-2">&</h1>
-        <h1 class="welcome-3">Bar</h1>
+        <section class="welcome-container">
+          <h1 class="welcome-1">Chillz Restaurant</h1>
+          <h1 class="welcome-2">&</h1>
+          <h1 class="welcome-3">Bar</h1>
+        </section>
       </div>
-    </div>
-    <div class="main-container">
-      <section class="menu--section">
-        <h2 id="chillz-menu" class="big-menu-heading">Chillz Special Menu</h2>
-
-        <div class="menu-data">
-          <h3 class="menu-heading">Jerk Chicken Pasta</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">19.00</div>
-          <div id="item-description">
-            Fresh Chicken Breast Diced with authentic Jerk Seasoning and Penne
-            Pasta w/1 Garlic Knot
-          </div>
-          <h3 class="menu-heading">Jerk Salmon Pasta</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">23.00</div>
-          <div id="item-description">
-            Fresh Salmon with authentic Jerk Seasoning and Penne Pasta with 1
-            Garlic Knot Included
-          </div>
-          <h3 class="menu-heading">Chicken Rice Boll</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">16.99</div>
-          <div id="item-description">
-            Sauteed onions and peppers with house sauce . served with yellow
-            rice
-          </div>
-          <h3 class="menu-heading">Lamb Chops</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">40.00</div>
-          <div id="item-description">
-            Served with mashed potatoes and your choice of one side
-          </div>
-          <h3 class="menu-heading">Salmon Rice Bowl</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">27.00</div>
-          <div id="item-description">
-            Sauteed onions and peppers with house sauce . served with yellow
-            rice
-          </div>
-          <h3 class="menu-heading">Jerk Shrimp Pasta</h3>
-          <div id="menu-line"></div>
-          <div id="item-price">25.00</div>
-          <div id="item-description">
-            Fresh Shrimp with authentic Jerk Seasoning and Penne Pasta with 1
-            Garlic Knot Included
-          </div>
-        </div>
-        <div class="food">
-          <img src="images/burger.jpg" />
-        </div>
-      </section>
-      <section id="gallery">
-        <h2>Latest Gallery</h2>
-        <img src="images/gallery-1.jpg" />
-        <img src="images/gallery-2.jpg" />
-        <img src="images/gallery-3.jpg" />
-        <img src="images/gallery-4.jpg" />
-        <img src="images/gallery-5.jpg" />
-        <img src="images/gallery-6.jpg" />
-        <img src="images/gallery-7.jpeg" />
-        <img src="images/gallery-8.jpg" />
-        <img src="images/gallery-9.jpg" />
-        <img src="images/gallery-10.jpg" />
-      </section>
-      <section id="hours">
-        <h3>Hours of Operation</h3>
-        <dl>
-          <dd>Thursday 12PM-2AM</dd>
-          <dd>Friday 12PM-2AM</dd>
-          <dd>Saturday 12PM-2AM</dd>
-          <dd>Sunday 12PM-2AM</dd>
-          <dd>Monday 12PM-2AM</dd>
-          <dd>Tuesday 12PM-2AM</dd>
-          <dd>Wednesday 12PM-2AM</dd>
-          <dd>Phone: (470) 639-8522</dd>
-        </dl>
-      </section>
-    </div>
-    <footer>
-      <address>
-        5052 Old National Hwy<br />
-        College Park<br />
-        GA 30349<br />
-      </address>
-    </footer>
+      <div class="main-container">
+        <section id="full-menu" class="tabs">
+          <h2 id="chillz-menu" class="big-menu-heading">Chillz Special Menu</h2>
+        </section>
+        <section id="gallery">
+          <h2>Latest Gallery</h2>
+          <img src="images/gallery-1.jpg" />
+          <img src="images/gallery-2.jpg" />
+          <img src="images/gallery-3.jpg" />
+          <img src="images/gallery-4.jpg" />
+          <img src="images/gallery-5.jpg" />
+          <img src="images/gallery-6.jpg" />
+          <img src="images/gallery-7.jpeg" />
+          <img src="images/gallery-8.jpg" />
+          <img src="images/gallery-9.jpg" />
+          <img src="images/gallery-10.jpg" />
+        </section>
+        <section id="hours">
+          <h3>Hours of Operation</h3>
+          <dl>
+            <dd>Monday 12PM-2AM</dd>
+            <dd>Teusday 12PM-2AM</dd>
+            <dd>Wednesday 12PM-2AM</dd>
+            <dd>Thursday 12PM-2AM</dd>
+            <dd>Friday 12PM-3AM</dd>
+            <dd>Saturday 12PM-3AM</dd>
+            <dd>Sunday 12PM-2AM</dd>
+          </dl>
+        </section>
+      </div>
+      <footer>
+        <address id="contact">
+          191 Ralph David Abernathy Blvd SW<br />
+          Atlanta<br />
+          GA 30312<br />
+          Phone: (404) 748-4266
+        </address>
+      </footer>
+    </section>
   </body>
 </html>

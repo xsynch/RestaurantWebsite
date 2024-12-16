@@ -1,0 +1,161 @@
+{
+  "starters": [
+    {
+      "name": "Spicy Jerk Wings",
+      "price": 15.0,
+      "description": "8 wings marinated in Jerk Sauce"
+    },
+    {
+      "name": "Chicken Egg Rolls",
+      "price": 10.0,
+      "description": "Chicken Egg Rolls with sweet chili sauce"
+    },
+    {
+      "name": "Mixed Greens Salad",
+      "price": 8.0,
+      "description": "Spring mix with onions. tomatoes, cucumbers and feta cheese. Tossed is house dressing"
+    }
+  ],
+  "sides": [
+    {
+      "name": "Macaroni and Cheese",
+      "price": 4.5
+    },
+    {
+      "name": "Garlic Bread",
+      "price": 4.5
+    },
+    {
+      "name": "Brussell Sprouts",
+      "price": 4.5
+    },
+    {
+      "name": "Mashed Potatoes",
+      "price": 4.5
+    },
+    {
+      "name": "Collard Greens",
+      "price": 4.5
+    },
+    {
+      "name": "Yellow Rice",
+      "price": 4.5
+    },
+    {
+      "name": "Fries",
+      "price": 4.5
+    },
+    {
+      "name": "Steamed Broccoli",
+      "price": 4.5
+    }
+  ],
+  "Lunch Special": [
+    {
+      "name": "10pc Wings and Fries",
+      "price": 12.99
+    },
+    {
+      "name": "Grilled Chicken Sandwich and Fries",
+      "price": 12.99
+    },
+    {
+      "name": "Grilled Chicken Salad",
+      "price": 12.99
+    }
+  ],
+  "Dessert": [
+    {
+      "name": "Turtle Cheesecake",
+      "price": 8.0
+    },
+    {
+      "name": "Regular Cheesecake",
+      "price": 7.0
+    },
+    {
+      "name": "Red Velvet Cake",
+      "price": 8.0
+    }
+  ],
+  "Entrees": [
+    {
+      "name": "Jerk Salmon Pasta",
+      "price": 23.0,
+      "description": "Fresh Salmon with authentic Jerk Seasoning and Penne Pasta with 1 Garlic Knot Included"
+    },
+    {
+      "name": "Jerk Chicken Pasta",
+      "price": 19.0,
+      "description": "Fresh Chicken Breast Diced with authentic Jerk Seasoning and Penne Pasta w/1 Garlic Knot"
+    },
+    {
+      "name": "Jerk Shrimp Pasta",
+      "price": 25.0,
+      "description": "Fresh Shrimp with authentic Jerk Seasoning and Penne Pasta with 1 Garlic Knot Included"
+    },
+    {
+      "name": "Lamb Chops",
+      "price": 40.0,
+      "description": "Served with mashed potatoes and your choice of one side"
+    },
+    {
+      "name": "Chicken Rice Bowl",
+      "price": 16.99,
+      "description": "Sauteed onions and peppers with house sauce . served with yellow rice"
+    },
+    {
+      "name": "Salmon Rice Bowl",
+      "price": 27.0,
+      "description": "Sauteed onions and peppers with house sauce . served with yellow rice"
+    },
+    {
+      "name": "Shrimp Rice Bowl",
+      "price": 22.0,
+      "description": "Sauteed onions and peppers with house sauce . served with yellow rice"
+    },
+    {
+      "name": "Whole Red Snapper",
+      "price": 40.0,
+      "description": "Whole Red Snapper served on a bed of rice"
+    },
+    {
+      "name": "Crab Cake Dinner",
+      "price": 28.0
+    },
+    {
+      "name": "Grilled Chicken Sandwich",
+      "price": 14.0
+    }
+  ],
+  "Add Ons": [
+    {
+      "name": "Chicken",
+      "price": 8.0
+    },
+    {
+      "name": "Shrimp",
+      "price": 12.0
+    },
+    {
+      "name": "Onions and Peppers",
+      "price": 2.0
+    },
+    {
+      "name": "Bacon",
+      "price": 2.0
+    },
+    {
+      "name": "Snoball Toppings",
+      "price": 1.0
+    },
+    {
+      "name": "ToGo Boxes",
+      "price": 1.0
+    },
+    {
+      "name": "ToGo Cups",
+      "price": 1.0
+    }
+  ]
+}
